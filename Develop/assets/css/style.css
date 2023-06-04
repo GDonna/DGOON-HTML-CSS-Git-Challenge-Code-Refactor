@@ -68,8 +68,8 @@ button:hover {
 button:focus {
     outline: solid;
     border-color: black;
-
 }
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -168,10 +168,11 @@ p {
     max-width: 150px;
 }
 
+/* I changed the max height to 320px so '.search-engine-optization', '.online-reputation-management', and '.social-media-marketing' would visually fall inline to the .benefits division*/
 .search-engine-optimization {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding: 50px;
-    height: 325px;
+    height: 320px;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -179,7 +180,7 @@ p {
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 325px;
+    height: 320px;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -187,7 +188,7 @@ p {
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 325px;
+    height: 320px;
     background-color: #0072bb;
     color: #ffffff;
 }

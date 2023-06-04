@@ -5,17 +5,20 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title> Horiseon Home Page</title>
-    <! **Changed the title to better locate/ optimize searching **>
+    <! ** CHANGED TITLE OF THE WEBPAGE **>
 </head>
 
 
 <body>
-    <div class="header">
-        <header>
-             <h1> Hori<a href="#search-engine-optimization"><span style="color:yellow">seo</span></a>n</h1> <! **MOVED HEADER UNDER CLASS HEADER AND SINCE 'seo' WAS ALREADY UNDER SPAN, I JUST MADE IT YELLOW TO POP>    
-           <nav>
-            <ul>
-                <li> <! ** LISTED AS BUTTONS TO ALLOW ACCESSIBILITY TO TAB ALONG THE NAVIGATION**>
+    <header>
+         <div class="header">
+             <h1> Hori<a href="#search-engine-optimization"><span style="color:yellow">seo</span></a>n</h1> 
+             <! **MOVED HEADER UNDER CLASS HEADER AND SINCE 'seo' WAS ALREADY UNDER SPAN, I JUST MADE IT YELLOW TO POP>  
+              
+            <nav>
+                <ul>
+                <li> 
+                    <! ** LISTED AS BUTTONS TO ALLOW ACCESSIBILITY TO TAB ALONG THE NAVIGATION**>
                     <button><a href="#search-engine-optimization">Search Engine Optimization</a></button>
                 </li>
                 <li>
@@ -25,13 +28,15 @@
                 <li>
                     <button><a href="#social-media-marketing">Social Media Marketing</a></button>
                 </li>
-             </ul>
-           </nav>
+                </ul>
+            </nav>
+            </div>
         </header>
-    </div>
+
     <div class="hero" title="Group of people on a team brainstorming"> </div> <! ** Since this hero section had a background image, I added the title to describe the image **>
 
-    <div class="content">
+    <section>
+        <div class="content">
         <div id="search-engine-optimization" class="search-engine-optimization">
             <! ** LINKED CORRECT ID HREF ABOUVE TO CLASS**>
 
@@ -44,7 +49,7 @@
             </p>
         </div>
         <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt="reputation rate on laptop" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" alt="image of laptop with reputation rate charts rising" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
@@ -82,12 +87,16 @@
          
         </div>
     </div>
+</section>
+<footer>
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </div>
+</footer>
+
 </body>
 
 </html>
