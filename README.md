@@ -52,7 +52,7 @@ THEN I will find thee semantic structure of the code.
 ```
 ## What it looks like
 This is want the page looks like when I have committed the changes:
-![This is my refractored attempt to the Horiseon webpage](Assets/127.0.0.1_5500_Develop_index.html.png)
+![This is my refractored attempt to the Horiseon webpage](./assets/127.0.0.1_5500_Develop_index.html.png)
 
 ## Challenges I had
 I believe this page would benefit from the following for a more user-friendly experience:
