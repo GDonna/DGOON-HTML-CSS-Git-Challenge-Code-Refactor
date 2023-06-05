@@ -51,6 +51,7 @@ WHEN I view HTML and CSS
 THEN I will find thee semantic structure of the code. 
 ```
 ## What it looks like
+URL: https://gdonna.github.io/Dgoon-Class-Homework2023/
 This is want the page looks like when I have committed the changes:
 ![This is my refractored attempt to the Horiseon webpage](./assets/127.0.0.1_5500_Develop_index.html.png)
 
