@@ -1,4 +1,4 @@
-# Homework-1
+#Code Refactoring
 
 This is my submission for Homework-1 for NWU's coding bootcamp of Summer 2023. For this assignment, students are tasked to refractor this existing webpage to optimize functionality and accessibility for the search engine. For the final submission, I have added and committed my contributions, and will be merging it onto the main repository. 
 
